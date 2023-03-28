@@ -1,0 +1,87 @@
+{
+	"id": "helianas-guide-options",
+	"relationships":
+	{
+		"systems": [
+		{
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": 
+			{
+				"verified": "2.1.5"
+			}
+		}
+		]
+	},
+	"title": "Heliana's Guide to Monster Hunting Player Options",
+	"description": "Adding Heliana's Guide to Monster Hunting compendium packs for player options",
+	"authors": [
+	{ 
+		"name": "Kalakoi",
+		"url": "https://www.kalakoigaming.com",
+		"email": "kalakoi@kalakoigaming.com",
+		"discord": "Kalakoi#0001",
+		"flags": {}
+	}
+	],
+	"version": "0.0.1",
+	"compatibility":
+	{
+		"minimum": "10",
+		"verified": "10.291"
+	},
+	"scripts": [
+		"scripts/spellschool.js"
+	],
+	"packs": [
+	{
+		"name": "magicItems",
+		"label": "Heliana's Magic Items",
+		"system": "dnd5e",
+		"path": "packs/magicItems.db",
+		"type": "Item",
+		"module": "helianas-guide-options"
+	},
+	{
+		"name": "features",
+		"label": "Heliana's Features",
+		"system": "dnd5e",
+		"path": "packs/features.db",
+		"type": "Item",
+		"module": "helianas-guide-options"
+	},
+	{
+		"name": "classes",
+		"label": "Heliana's Classes",
+		"system": "dnd5e",
+		"path": "packs/classes.db",
+		"type": "Item",
+		"module": "helianas-guide-options"
+	},
+	{
+		"name": "subclasses",
+		"label": "Heliana's Subclasses",
+		"system": "dnd5e",
+		"path": "packs/subclasses.db",
+		"type": "Item",
+		"module": "helianas-guide-options"
+	},
+	{
+		"name": "familiars",
+		"label": "Heliana's Familiars",
+		"system": "dnd5e",
+		"path": "packs/familiars.db",
+		"type": "Actor",
+		"module": "helianas-guide-options"
+	},
+	{
+		"name": "spells",
+		"label": "Heliana's Spells",
+		"system": "dnd5e",
+		"path": "packs/spells.db",
+		"type": "Item",
+		"module": "helianas-guide-options"
+	}
+	],
+	"url": "https://www.kalakoigaming.com"
+}
