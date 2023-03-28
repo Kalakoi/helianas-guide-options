@@ -83,5 +83,6 @@
 		"module": "helianas-guide-options"
 	}
 	],
-	"url": "https://github.com/Kalakoi/helianas-guide-options"
+	"url": "https://github.com/Kalakoi/helianas-guide-options",
+	"manifest": "https://github.com/Kalakoi/helianas-guide-options/raw/main/module.json"
 }
